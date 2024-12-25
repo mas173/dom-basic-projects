@@ -1,0 +1,54 @@
+h1{
+color: rgb(0, 2, 4);
+font-style: bold;
+font-weight: 900;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+  
+}
+
+.container{
+  border: 2px solid black;
+    height: 600px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(225, 224, 224);
+  
+    
+ }
+
+img{
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+
+
+
+}
+button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: larger;
+  color: white;
+background-color: black;
+  border-radius: 2rem;
+  
+
+  
+
+}
